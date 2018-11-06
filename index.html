@@ -7,142 +7,121 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <title>SVG Infographic</title>
 </head>
 <body>
     <main>
         <section id="img0">
-            <object data="images/Logo.svg" type="image/svg+xml" class="svg-graphic" id="logo"></object>
-            <p id="first" class="details">
-                <span>Today we will get straight how the marvel Cinematic Universe timeline works.</span>
-            </p>
-            <button type="button" onclick="loadInfo()">Let The Journey Begin!</button>
+            <object data="images/Logo.svg" type="image/svg+xml" class="wow fadeInUp delay-3s" id="logo"></object>
+            <button class="button" type="button" onclick="myFunction1()">Let The Journey Begin!</button>
+            <p id="1txt" class="details"></p>
         </section>
         <section id="img1">
-            <object data="images/captainamerica_thefirstavenger.svg" type="image/svg+xml" class="svg-graphic" id="movie1"></object>
-            <p class="details">
-                <span>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</span>
-            </p>
+            <object data="images/captainamerica_thefirstavenger.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie1"></object>
+            <button class="button" type="button" onclick="myFunction2()">Captain America: The First Avenger</button>
+            <p id="2txt" class="details"></p>
         </section>
         <section id="img2">
-            <object data="images/ironman.svg" type="image/svg+xml"class="svg-graphic" id="movie2"></object>
-            <p class="details">
-                <span>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</span>
-            </p>
+            <object data="images/ironman.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie2"></object>
+            <button class="button" type="button" onclick="myFunction3()">Iron Man</button>
+            <p id="3txt" class="details"></p>
         </section>
         <section id="img3">
-            <object data="images/ironman2.svg" type="image/svg+xml" class="svg-graphic" id="movie3"></object>
-            <p class="details">
-                <span>With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.</span>
-            </p>
+            <object data="images/ironman2.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie3"></object>
+            <button class="button" type="button" onclick="myFunction4()">Iron Man 2</button>
+            <p id="4txt" class="details"></p>
         </section>
         <section id="img4">
-            <object data="images/theincrediblehulk.svg" type="image/svg+xml" class="svg-graphic" id="movie4"></object>
-            <p class="details">
-                <span>Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into, whenever he loses his temper.</span>
-            </p>
+            <object data="images/theincrediblehulk.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie4"></object>
+            <button class="button" type="button" onclick="myFunction5()">The Incredible Hulk</button>
+            <p id="5txt" class="details"></p>
         </section>
         <section id="img5">
-            <object data="images/thor.svg" type="image/svg+xml" class="svg-graphic" id="movie5"></object>
-            <p class="details">
-                <span>The powerful, but arrogant god Thor, is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.</span>
-            </p>
+            <object data="images/thor.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie5"></object>
+            <button class="button" type="button" onclick="myFunction6()">Thor</button>
+            <p id="6txt" class="details"></p>
         </section>
         <section id="img6">
-            <object data="images/theavengers.svg" type="image/svg+xml" class="svg-graphic" id="movie6"></object>
-            <p class="details">
-                <span>Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</span>
-            </p>
+            <object data="images/theavengers.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie6"></object>
+            <button class="button" type="button" onclick="myFunction7()">The Avengers</button>
+            <p id="7txt" class="details"></p>
         </section>
         <section id="img7">
-            <object data="images/ironman3.svg" type="image/svg+xml" class="svg-graphic" id="movie7"></object>
-            <p class="details">
-                <span>When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</span>
-            </p>
+            <object data="images/ironman3.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie7"></object>
+            <button class="button" type="button" onclick="myFunction8()">Iron Man 3</button>
+            <p id="8txt" class="details"></p>
         </section>
         <section id="img8">
-            <object data="images/thorthedarkworld.svg" type="image/svg+xml" class="svg-graphic" id="movie8"></object>
-            <p class="details">
-                <span>When Dr. Jane Foster gets cursed with a powerful entity known as the Aether, Thor is heralded of the cosmic event known as the Convergence and the genocidal Dark Elves.</span>
-            </p>
+            <object data="images/thorthedarkworld.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie8"></object>
+            <button class="button" type="button" onclick="myFunction9()">Thor: The Dark World</button>
+            <p id="9txt" class="details"></p>
         </section>
         <section id="img9">
-            <object data="images/captainamericawintersoldier.svg" type="image/svg+xml" class="svg-graphic" id="movie9"></object>
-            <p class="details">
-                <span>As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.</span>
-            </p>
+            <object data="images/captainamericawintersoldier.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie9"></object>
+            <button class="button" type="button" onclick="myFunction10()">Captain America: The Winter Soldier</button>
+            <p id="10txt" class="details"></p>
         </section>
         <section id="img10">
-            <object data="images/guardiansofthegalaxy.svg" type="image/svg+xml" class="svg-graphic" id="movie10"></object>
-            <p class="details">
-                <span>A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</span>
-            </p>
+            <object data="images/guardiansofthegalaxy.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie10"></object>
+            <button class="button" type="button" onclick="myFunction11()">Guardians Of The Galaxy</button>
+            <p id="11txt" class="details"></p>
         </section>
         <section id="img11">
-            <object data="images/guardiansofthegalaxyvol2.svg" type="image/svg+xml" class="svg-graphic" id="movie11"></object>
-            <p class="details">
-                <span>The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.</span>
-            </p>
+            <object data="images/guardiansofthegalaxyvol2.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie11"></object>
+            <button class="button" type="button" onclick="myFunction12()">Guardians Of The Galaxy Vol 2</button>
+            <p id="12txt" class="details"></p>
         </section>
         <section id="img12">
-            <object data="images/theavengersageofultron.svg" type="image/svg+xml" class="svg-graphic" id="movie12"></object>
-            <p class="details">
-                <span>When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.</span>
-            </p>
+            <object data="images/theavengersageofultron.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie12"></object>
+            <button class="button" type="button" onclick="myFunction13()">The Avengers: Age Of Ultron</button>
+            <p id="13txt" class="details"></p>
         </section>
         <section id="img13">
-            <object data="images/antman.svg" type="image/svg+xml" class="svg-graphic" id="movie13"></object>
-            <p class="details">
-                <span>Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.</span>
-            </p>
+            <object data="images/antman.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie13"></object>
+            <button class="button" type="button" onclick="myFunction14()">Antman</button>
+            <p id="14txt" class="details"></p>
         </section>
         <section id="img14">
-            <object data="images/captainamericacivilwar.svg" type="image/svg+xml" class="svg-graphic" id="movie14"></object>
-            <p class="details">
-                <span>Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.</span>
-            </p>
+            <object data="images/captainamericacivilwar.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie14"></object>
+            <button class="button" type="button" onclick="myFunction15()">Captain America: Civil War</button>
+            <p id="15txt" class="details"></p>
         </section>
         <section id="img15">
-            <object data="images/doctorstrange.svg" type="image/svg+xml" class="svg-graphic" id="movie15"></object>
-            <p>
-                <span>While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</span>
-            </p>
+            <object data="images/doctorstrange.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie15"></object>
+            <button class="button" type="button" onclick="myFunction16()">Doctor Strange</button>
+            <p id="16txt" class="details"></p>
         </section>
         <section id="img16">
-            <object data="images/spidermanhomecoming.svg" type="image/svg+xml" class="svg-graphic" id="movie16"></object>
-            <p class="details">
-                <span>Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.</span>
-            </p>
+            <object data="images/spidermanhomecoming.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie16"></object>
+            <button class="button" type="button" onclick="loadInfo17()">Spiderman: Homecoming</button>
+            <p id="17txt" class="details"></p>
         </section>
         <section id="img17">
-            <object data="images/blackpanther.svg" type="image/svg+xml" class="svg-graphic" id="movie17"></object>
-            <p class="details">
-                <span>T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.</span>
-            </p>
+            <object data="images/blackpanther.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie17"></object>
+            <button class="button" type="button" onclick="myFunction18()">Black Panther</button>
+            <p id="18txt" class="details"></p>
         </section>
         <section id="img18">
-            <object data="images/thorragnarok.svg" type="image/svg+xml" class="svg-graphic" id="movie18"></object>
-            <p class="details">
-                <span>Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</span>
-            </p>
+            <object data="images/thorragnarok.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie18"></object>
+            <button class="button" type="button" onclick="myFunction19()">Thor: Ragnarok</button>
+            <p id="19txt" class="details"></p>
         </section>
         <section id="img19">
-            <object data="images/antmanandthewasp.svg" type="image/svg+xml" class="svg-graphic" id="movie19"></object>
-            <p class="details">
-                <span>As Scott Lang balances being both a SuperHero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.</span>
-            </p>
+            <object data="images/antmanandthewasp.svg" type="image/svg+xml" class="wow rotateInDownRight" id="movie19"></object>
+            <button class="button" type="button" onclick="myFunction20()">Antman And The Wasp</button>
+            <p id="20txt" class="details"></p>
         </section>
         <section id="img20">
-            <object data="images/theavengersinfinitywar.svg" type="image/svg+xml" class="svg-graphic" id="movie20"></object>
-            <p class="details">
-                <span>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</span>
-            </p>
+            <object data="images/theavengersinfinitywar.svg" type="image/svg+xml" class="wow rotateInDownLeft" id="movie20"></object>
+            <button class="button" type="button" onclick="myFunction21()">The Avengers: Infinity War</button>
+            <p id="21txt" class="details"></p>
         </section>
     </main>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
 </body>
 </html>
